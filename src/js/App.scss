@@ -1,0 +1,424 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Caveat:400");
+* {
+  box-sizing: border-box;
+}
+.auto-flex {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 53px;
+  width: 139px;
+}
+.auto-flex1 {
+  align-items: flex-end;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 53px;
+  justify-content: flex-start;
+  margin-top: 10px;
+  min-width: 218px;
+  width: auto;
+}
+.background {
+  background-color: transparent;
+  height: 33px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 189px;
+}
+.bubble-hover {
+  background-color: transparent;
+  height: 34px;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.1s ease-in-out;
+  width: 190px;
+}
+.bubble-hover:hover {
+  opacity: 1;
+}
+.caveat-normal-rose-21px {
+  color: var(--rose);
+  font-family: "Caveat", Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+.class-card-1 {
+  align-items: center;
+  background-color: transparent;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/5fe31ce884e43d528ffbbcbd/releases/5fe31d34a361b6f518b4f14c/img/desktop-1280---classes--bg--4AF73C2C-6DDB-4C07-95DC-306BA324ED8E@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 247px;
+  padding: 10px 0;
+  width: 288px;
+}
+.class-picture {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  height: 144px;
+  justify-content: flex-start;
+  left: 0px;
+  min-width: 258px;
+  position: absolute;
+  top: 0px;
+  width: auto;
+}
+.class-picture-9 {
+  background-color: transparent;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/5fe31ce884e43d528ffbbcbd/releases/5feb9d7bcf164add434b2a55/img/desktop-1280---classes--class-picture-9-0FC37BAE-DADE-4D9D-9BB7-04897D4B1E31@2x.png);
+  background-size: 100% 100%;
+  flex-shrink: 0;
+  height: 144px;
+  width: 258px;
+}
+.emptyhearticon {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 31px;
+  margin-left: 48px;
+  opacity: 1;
+  position: relative;
+  width: 31px;
+}
+.emptyhearticon .empty-heart-icon-nA3xGI {
+  background-color: transparent;
+  height: 31px;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+.emptyhearticon .full-heart-icon-nA3xGI {
+  background-color: transparent;
+  height: 31px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+.emptyhearticon .path-EFKDQm {
+  background-color: transparent;
+  height: 24px;
+  left: 3px;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  width: 26px;
+}
+.emptyhearticon .path-SguAfW {
+  background-color: transparent;
+  height: 20px;
+  left: 4px;
+  opacity: 1;
+  position: absolute;
+  top: 6px;
+  width: 22px;
+}
+.emptyhearticon .rectangle-EFKDQm {
+  background-color: transparent;
+  height: 31px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+.feature-here {
+  background-color: transparent;
+  flex-shrink: 0;
+  font-weight: 400;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: 26px;
+  min-height: 26px;
+  min-width: 154px;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.for-hover {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 36px;
+}
+.group {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  height: 27px;
+  justify-content: flex-start;
+  left: 36px;
+  min-width: 153px;
+  position: absolute;
+  top: 4px;
+  transform: rotate(-2deg);
+  width: auto;
+}
+.lato-normal-black-12px {
+  color: black;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-black-16px {
+  color: black;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.overlap-group {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 144px;
+  position: relative;
+  width: 258px;
+}
+.overlap-group2 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 34px;
+  position: relative;
+  width: 190px;
+}
+.path {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 15px;
+  opacity: 0.8;
+  width: 13px;
+}
+.play-button-bg {
+  background-color: transparent;
+  height: 144px;
+  left: 0px;
+  opacity: 0.8;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+.play-button-hover {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  height: 144px;
+  justify-content: flex-start;
+  left: 0px;
+  min-width: 258px;
+  position: absolute;
+  top: 0px;
+  width: auto;
+}
+.play-button-icon {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  height: 46px;
+  justify-content: flex-start;
+  left: 106px;
+  min-width: 46px;
+  position: absolute;
+  top: 49px;
+  width: auto;
+}
+.play-button-icon-1 {
+  align-items: flex-start;
+  background-color: transparent;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/5fe31ce884e43d528ffbbcbd/releases/5feb9d7bcf164add434b2a55/img/tablet-768---video-oval-247E4DC3-09A1-4637-8277-5B6972304AA2@2x.png);
+  background-size: 100% 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 46px;
+  justify-content: flex-end;
+  min-width: 46px;
+  padding: 15px;
+  width: auto;
+}
+.pulsingdot {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  width: 32px;
+}
+.pulsingdot .background-BKSJx7 {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 32px;
+}
+.pulsingdot .oval-4Rn6rX {
+  background-color: transparent;
+  height: 16px;
+  left: 8px;
+  opacity: 1;
+  position: absolute;
+  top: 8px;
+  width: 16px;
+}
+.pulsingdot .oval-BKSJx7 {
+  background-color: transparent;
+  height: 30px;
+  left: 1px;
+  opacity: 0.44;
+  position: absolute;
+  top: 1px;
+  width: 30px;
+}
+.subtitle {
+  background-color: transparent;
+  flex-shrink: 0;
+  font-weight: 400;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-top: 5px;
+  min-height: 24px;
+  min-width: 139px;
+  opacity: 0.5;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.title {
+  background-color: transparent;
+  flex-shrink: 0;
+  font-weight: 400;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 100px;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.tour-bubble-right {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  height: 34px;
+  justify-content: flex-start;
+  left: 13px;
+  min-width: 190px;
+  position: absolute;
+  top: 11px;
+  width: auto;
+}
+:root {
+  --rose: rgba(255, 86, 86, 1);
+}
+* {
+  box-sizing: border-box;
+}
+.pulsingdot .background-BKSJx7 {
+  background-color: transparent;
+  height: 32px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 32px;
+}
+.pulsingdot .oval-4Rn6rX {
+  background-color: transparent;
+  height: 16px;
+  left: 8px;
+  opacity: 1;
+  position: absolute;
+  top: 8px;
+  width: 16px;
+}
+.pulsingdot .oval-BKSJx7 {
+  background-color: transparent;
+  height: 30px;
+  left: 1px;
+  opacity: 0.44;
+  position: absolute;
+  top: 1px;
+  width: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+.emptyhearticon .empty-heart-icon-nA3xGI {
+  background-color: transparent;
+  height: 31px;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+.emptyhearticon .full-heart-icon-nA3xGI {
+  background-color: transparent;
+  height: 31px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+.emptyhearticon .path-EFKDQm {
+  background-color: transparent;
+  height: 24px;
+  left: 3px;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  width: 26px;
+}
+.emptyhearticon .path-SguAfW {
+  background-color: transparent;
+  height: 20px;
+  left: 4px;
+  opacity: 1;
+  position: absolute;
+  top: 6px;
+  width: 22px;
+}
+.emptyhearticon .rectangle-EFKDQm {
+  background-color: transparent;
+  height: 31px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+
